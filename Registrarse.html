@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<form id="contact-form" action="Registrarse.php"  method="post" enctype="multipart/form-data"> 
+	<link rel="stylesheet" href="estilos.css">
+<script language="Javascript">
+document.oncontextmenu = function(){return false}
+</script>
+<head>
+	<meta name="viewport" content="width=device-with,initial-scale=1.0"> 
+	<title>		
+		hikers
+	</title>
+
+
+</head>
+<style>
+.mySlides {display:none;}
+
+</style>
+
+<center>
+<table border=3 cellspacing=10>	
+
+
+				<div class="w3-content w3-section" style="max-width: 500px"></div>
+
+				<h1> Acces </h1>
+
+<body background="fondo.jpg" width=300 height=200 style='color:yelow' BGCOLOR='ALICEBLUE' TEXT='BLACK' LINK='BLUE'>
+
+
+<tr>
+<center>
+
+
+<td>
+						
+				<CENTER>				
+  <img class="mySlides" src="key.jpg" width="200" height="200">
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 100); // Change image every 2 seconds
+}
+</script>
+
+
+</td>
+
+		</table>
+
+
+	<table border=0 cellspacing=10>	
+				<tr style="color:blue" >
+								
+		<center>
+			<td>
+				<center>
+			Nom<br><input type="text" name="Nom"  ><br><p>
+			<br>Email<br><input type="text" name="Email" ><br><p><br>
+		    <br>Clau acces<br><input type="text" name="Clau1"  ><br><p>
+		    <br>Repetir clau acces<br><input type="text" name="Clau2"  ><br><p>
+		
+		    
+
+		    
+
+
+
+
+		    	<br><br>
+				<input class="button" type="submit"  value ="Enviar" >  
+				
+			</center>
+		
+		</tr>
+	</table>
+
+
+
+ 
+	
+</body>
+</html>
