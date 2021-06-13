@@ -11,7 +11,7 @@ $Hora=date("H:i:s");
 $header = "Participant " . $Nom. ", \r\n"; 
 
 
-$mensaje .= "Nom : " . $Nom . " \r\n"; 
+$mensaje = "Nom : " . $Nom . " \r\n"; 
 
 $mensaje .= "Email  " . $Email . " \r\n"; 
 $mensaje .= "Assumpte  " . $Assumpte . " \r\n"; 
